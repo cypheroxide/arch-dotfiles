@@ -1,0 +1,12 @@
+"<widget name>": {
+    "icon": "<font awesome icon name>",
+    "label": "<the text label of the widget>",
+    "color": "<the color of the label>",
+    "blockdef": {
+        "meta": {
+            "view": "term",
+            "controller": "cmd",
+            "cmd": "<the actual cli command>"
+        }
+    }
+}
