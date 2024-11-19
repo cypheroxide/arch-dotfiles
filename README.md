@@ -1,5 +1,3 @@
-Here's a sample README.md file you can use as a starting point:
-
 # Arch-Based Workstation Dotfiles
 
 This repository contains my configuration files for my Arch-based workstation, originally built on Garuda Linux. This setup provides a solid foundation for productivity and personalization.
