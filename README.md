@@ -56,6 +56,20 @@ ln -s ~/.dotfiles/custom/aliases.zsh ~/.oh-my-zsh/custom/aliases.zsh
 source ~/.zshrc  # or ~/.bashrc
 ```
 
+## Package Management
+
+### Flatpak Packages
+The repository includes a list of installed Flatpak packages and an installation script:
+
+```bash
+# View the list of packages
+cat packages/flatpak.md
+
+# Install all Flatpak packages
+./packages/install-flatpaks.sh
+```
+
+
 ## Components
 
 ### Shell Configuration
