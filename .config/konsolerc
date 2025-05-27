@@ -1,0 +1,18 @@
+[Desktop Entry]
+DefaultProfile=Garuda.profile
+
+[General]
+ConfigVersion=1
+
+[KonsoleWindow]
+RememberWindowSize=true
+ShowMenuBarByDefault=false
+
+[MainWindow]
+MenuBar=Disabled
+RestorePositionForNextInstance=true
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+
+[UiSettings]
+ColorScheme=

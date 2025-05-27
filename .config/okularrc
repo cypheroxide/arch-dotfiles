@@ -1,0 +1,15 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=true
+
+[MainWindow]
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=/run/media/cypheroxide/TheVault/Backups/Documents/School/Fall 2022 Files/Conf Firewalls/Labs/210_10_Blocking_Threats_Custom.pdf
+File2[$e]=$HOME/Downloads/Attachment_t0003189_RenewLease_May302024114627.pdf
+Name1[$e]=210_10_Blocking_Threats_Custom.pdf
+Name2[$e]=Attachment_t0003189_RenewLease_May302024114627.pdf

@@ -1,0 +1,14 @@
+{
+  "autoupdate:enabled": true,
+  "autoupdate:installonquit": true,
+  "autoupdate:intervalms": 3600000,
+  "conn:askbeforewshinstall": false,
+  "editor:minimapenabled": true,
+  "telemetry:enabled": false,
+  "term:copyonselect": false,
+  "web:defaultsearch": "https://search.brave.com/search?q={query}\u0026source=desktop",
+  "web:defaulturl": "https://github.com/wavetermdev/waveterm",
+  "window:opacity": 0.4,
+  "window:tilegapsize": 3,
+  "window:transparent": true
+}

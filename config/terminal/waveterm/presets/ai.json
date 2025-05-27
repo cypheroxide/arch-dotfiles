@@ -1,0 +1,40 @@
+{    "ai@global": {
+        "display:name": "Global default",
+        "display:order": -1,
+        "ai:*": true
+    },
+    "ai@wave": {
+        "display:name": "Wave Proxy - gpt-4o-mini",
+        "display:order": 4,
+        "ai:*": true,
+        "ai:model": "gpt-4o-mini",
+        "ai:maxtokens": 2048,
+        "ai:timeoutms": 60000
+    },
+    "ai@qen-coder32b":  {
+        "display:name": "ollama = qwen-coder32",
+        "display:order": 2,
+        "ai:*": true,
+        "ai:baseurl": "http://localhost:11434/v1",
+        "ai:model": "qwen-coder2.5:32b",
+        "ai:maxtokens": 128000,
+        "ai:timeouts": 60000
+    },
+    "ai@yi-coder":  {
+        "display:name": "ollama = yi-coder",
+        "display:order": 3,
+        "ai:*": true,
+        "ai:baseurl": "http://localhost:11434/v1",
+        "ai:model": "yi-coder:latest",
+        "ai:maxtokens": 128000,
+        "ai:timeouts": 60000
+    },
+    "ai@ollama-llama3.2": {
+        "display:name": "ollama - llama3.2",
+        "display:order": 1,
+        "ai:*": true,
+        "ai:baseurl": "http://localhost:11434/v1",
+        "ai:model": "llama3.2:latest",
+        "ai:maxtokens": 8192
+    }
+}

@@ -1,0 +1,146 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=112,111,110
+ColorAmount=-0.8
+ColorEffect=0
+ContrastAmount=0.5
+ContrastEffect=1
+Enable=
+IntensityAmount=0.1
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=0,0,0
+ColorAmount=0.075
+ColorEffect=2
+ContrastAmount=0.45
+ContrastEffect=2
+Enable=false
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=66,65,64
+BackgroundNormal=22,26,31
+DecorationFocus=53,120,255
+DecorationHover=228,190,108
+ForegroundActive=150,191,240
+ForegroundInactive=184,163,120
+ForegroundLink=53,120,255
+ForegroundNegative=232,88,72
+ForegroundNeutral=192,162,95
+ForegroundNormal=255,203,147
+ForegroundPositive=120,183,83
+ForegroundVisited=165,104,202
+
+[Colors:Selection]
+BackgroundAlternate=22,68,120
+BackgroundNormal=24,72,128
+DecorationFocus=53,120,255
+DecorationHover=255,203,147
+ForegroundActive=150,191,240
+ForegroundInactive=81,119,166
+ForegroundLink=53,120,255
+ForegroundNegative=232,88,72
+ForegroundNeutral=192,162,95
+ForegroundNormal=255,255,255
+ForegroundPositive=120,183,83
+ForegroundVisited=165,104,202
+
+[Colors:Tooltip]
+BackgroundAlternate=17,51,86
+BackgroundNormal=16,48,80
+DecorationFocus=53,120,255
+DecorationHover=255,203,147
+ForegroundActive=150,191,240
+ForegroundInactive=184,163,120
+ForegroundLink=53,120,255
+ForegroundNegative=232,88,72
+ForegroundNeutral=192,162,95
+ForegroundNormal=49,111,235
+ForegroundPositive=120,183,83
+ForegroundVisited=165,104,202
+
+[Colors:View]
+BackgroundAlternate=15,17,20
+BackgroundNormal=11,13,15
+DecorationFocus=53,120,255
+DecorationHover=255,203,147
+ForegroundActive=150,191,240
+ForegroundInactive=184,163,120
+ForegroundLink=53,120,255
+ForegroundNegative=232,88,72
+ForegroundNeutral=192,162,95
+ForegroundNormal=255,213,121
+ForegroundPositive=120,183,83
+ForegroundVisited=165,104,202
+
+[Colors:Window]
+BackgroundAlternate=52,51,50
+BackgroundNormal=3,7,14
+DecorationFocus=53,120,255
+DecorationHover=255,203,147
+ForegroundActive=150,191,240
+ForegroundInactive=184,163,120
+ForegroundLink=53,120,255
+ForegroundNegative=232,88,72
+ForegroundNeutral=192,162,95
+ForegroundNormal=219,195,143
+ForegroundPositive=120,183,83
+ForegroundVisited=165,104,202
+
+[DirSelect Dialog]
+DirSelectDialog Size=1061,545
+History Items[$e]=file:$HOME/AutonomousAI,file:$HOME/Code,file:$HOME/Build,file:///run/media/cypheroxide/Data/VM Shared Folder,file:$HOME/Documents/Books/Exurbia,file:$HOME/Documents/Obsidian,file:///run/media/cypheroxide/TheVault/Backups/Documents/School,file:$HOME/Downloads,file:///home,file:///,file:$HOME/.config/neofetch,file:$HOME/.oh-my-zsh,file:$HOME/.thunderbird/juv4kiud.default-release/extensions,file:///home/cypheroxide./config/,file:///home/cypheroxide./config,file:///run/media/cypheroxide/Data/Streams,file:$HOME/.cache/lm-studio/models,file:$HOME/.cache,file:$HOME/Sync/obsidian,file:$HOME/Code AI,file:$HOME/Code,file:$HOME/Build,file:$HOME/Build,file:$HOME/Build,file:$HOME/Documents/Obsidian/Vault_42,file:$HOME/Documents,file:$HOME/Sync,file:$HOME/Build,file:$HOME/Build,file:$HOME/AutonomousAI,file:$HOME/AutonomousAI,file:$HOME/AutonomousAI,file:$HOME/AutonomousAI,file:$HOME/AutonomousAI,file:$HOME/Build,file:$HOME/Build,file:$HOME/Code,file:$HOME/AutonomousAI,file:$HOME/AutonomousAI,file:$HOME/AutonomousAI,file:$HOME/Build,file:$HOME/AutonomousAI,file:$HOME/Build,file:$HOME/Research,file:$HOME/Build,file:$HOME/Build/AWS,file:$HOME/Build,file:$HOME/Code,file:$HOME/Code,file:$HOME/Code
+Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x86\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
+[General]
+ColorScheme=119887-DcrDeepBlueGoldKDE4
+ColorSchemeHash=a054744e5da530142f039caa182148b170643d2e
+fixed=FiraCode Nerd Font Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=Fira Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Fira Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Fira Sans,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Fira Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=BeautyLine
+
+[KDE]
+LookAndFeelPackage=Colorful-Dark-Global-6
+ShowDeleteCommand=true
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=false
+Breadcrumb Navigation=false
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Preview Width=231
+Show Bookmarks=false
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=true
+Show Speedbar=true
+Show hidden files=true
+Sort by=Name
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=238
+View Style=DetailTree
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[WM]
+activeBackground=13,15,17
+activeBlend=3,7,14
+activeFont=Fira Sans,10,-1,5,75,0,0,0,0,0,Bold
+activeForeground=255,213,121
+inactiveBackground=13,15,17
+inactiveBlend=3,7,14
+inactiveForeground=152,116,59

@@ -1,0 +1,50 @@
+
+# Sensitive files
+*.env
+*.secret
+*token*
+*auth*
+*.key
+*.pem
+
+# Cache directories
+*.cache/
+cache/
+*/cache/
+
+# Large binary files
+*.bin
+*.exe
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# Application-specific data
+*.data/
+*.db
+*.sqlite*
+*history*
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# KDE specific
+**/plasma*/private*
+**/plasma*/crashes*
+**/plasma-workspace/env/*
+
+# Other
+node_modules/
+__pycache__/
+*.pyc
+
