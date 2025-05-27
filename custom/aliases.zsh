@@ -49,14 +49,14 @@ alias jctl='journalctl -p 3 -xb'
 # AthenaOS Docker image
 alias run-athena='sudo docker run -ti --name athena-rdp --cap-add CAP_SYS_ADMIN --cap-add IPC_LOCK --cap-add NET_ADMIN --cgroupns=host --device /dev/net/tun --shm-size 4G --sysctl net.ipv6.conf.all.disable_ipv6=0 --volume /sys/fs/cgroup:/sys/fs/cgroup --publish 23389:3389 --publish 8022:22 --restart unless-stopped docker.io/athenaos/rdp:latest'
 alias enter-athena='sudo docker exec --user athena -ti athena-rdp /bin/zsh'
-alias rdp-athena='remmina -c rdp://127.0.0.1:23389'
+alias rdp-athena='remmina -c rdp://$RDP_HOST:23389'
 
 
 # Docker containers
 alias port-up='sudo docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest'
 alias port-agent='sudo docker run -d -p 9001:9001 --name portainer_agent --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v /var/lib/docker/volumes:/var/lib/docker/volumes -v /:/host portainer/agent:2.21.5'
 alias update-web='sudo docker run --rm --volume /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower --run-once open-webui'
-alias web-up='sudo docker run -d -p 9080:8080 --add-host=host.docker.internal:host-gateway -e COMFYUI_BASE_URL=http://host.docker.internal:8188/ -e ENABLE_IMAGE_GENERATION=True -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:latest'
+alias web-up='sudo docker run -d -p 9080:8080 --add-host=host.docker.internal:host-gateway -e COMFYUI_BASE_URL=http://host.docker.internal:8188/ -e ENABLE_IMAGE_GENERATION=True -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=$OLLAMA_BASE_URL --name open-webui --restart always ghcr.io/open-webui/open-webui:latest'
 alias pipes-up='sudo docker run -d -p 9099:9099 --add-host=host.docker.internal:host-gateway -v pipelines:/app/pipelines --name pipelines --restart on-failure ghcr.io/open-webui/pipelines:main'
 alias localai-up='curl https://localai.io/install.sh | DOCKER_INSTALL=true USE_AIO=true PORT=7070 CORE_IMAGES=true --p2p sudo sh'
 alias localai-gpu='sudo docker run -p --add-host=host.docker.internal:host-gateway -p 6100:8080 --gpus all --name local-ai -ti localai/localai:latest-aio-gpu-nvidia-cuda-12'
