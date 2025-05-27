@@ -57,6 +57,20 @@ source ~/.zshrc  # or ~/.bashrc
 ```
 
 ## Package Management
+### AUR Packages
+The repository includes a list of installed AUR and Chaotic AUR packages with installation scripts:
+
+```bash
+# View the list of packages
+cat packages/aur/aur-packages.md
+
+# Install all AUR packages
+./packages/aur/install-aur-packages.sh
+
+# Update AUR package list
+./packages/aur/update-aur-packages.sh
+```
+
 
 ### Flatpak Packages
 The repository includes a list of installed Flatpak packages and an installation script:
